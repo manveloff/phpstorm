@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application>
+  <component name="ActionMacroManager">
+    <macro name="Reformat">
+      <action id="EditorLineStart" />
+      <action id="EditorLineEndWithSelection" />
+      <action id="ReformatCode" />
+    </macro>
+    <macro name="Title-comment (for CSS)">
+      <action id="EditorLineStart" />
+      <typing text-keycode="47:0;56:1;32:0">/*&amp;#x20;</typing>
+      <action id="EditorLineEnd" />
+      <action id="EditorEnter" />
+      <typing text-keycode="61:0;61:0;61:0;61:0;61:0;61:0;61:0;61:0;61:0;61:0;61:0;61:0;61:0;61:0;61:0;61:0;61:0;61:0;61:0;61:0;61:0;61:0;61:0;61:0;61:0;61:0;61:0;61:0;61:0;61:0;61:0;61:0;56:1;47:0">================================*/</typing>
+    </macro>
+    <macro name="consolelog">
+      <action id="EditorLineStartWithSelection" />
+      <action id="EditorLeft" />
+      <typing text-keycode="67:0;79:0;78:0;83:0;79:0;76:0;69:0;46:0;76:0;79:0;71:0;57:1;222:0">console.log('</typing>
+      <action id="EditorLineEnd" />
+      <typing text-keycode="222:0;48:1;59:0">');</typing>
+    </macro>
+    <macro name="consolelog_without_commas">
+      <action id="EditorLineStartWithSelection" />
+      <action id="EditorLeft" />
+      <typing text-keycode="67:0;79:0;78:0;83:0;79:0;76:0;69:0;46:0;76:0;79:0;71:0;57:1">console.log(</typing>
+      <action id="EditorLineEnd" />
+      <typing text-keycode="48:1;59:0">);</typing>
+    </macro>
+    <macro name="Title-comment">
+      <action id="EditorLineStartWithSelection" />
+      <action id="EditorLeft" />
+      <action id="EditorLineStartWithSelection" />
+      <action id="EditorBackSpace" />
+      <typing text-keycode="47:0;56:1;32:0">/*&amp;#x20;</typing>
+      <action id="EditorLineEnd" />
+      <action id="EditorEnter" />
+      <typing text-keycode="61:0;61:0;61:0;61:0;61:0;61:0;61:0;61:0;61:0;61:0;61:0;61:0;61:0;61:0;61:0;61:0;61:0;61:0;61:0;61:0;61:0;61:0;61:0;61:0;61:0;61:0;61:0;61:0;61:0;61:0;61:0;61:0;56:1;47:0">================================*/</typing>
+      <action id="EditorDown" />
+      <action id="EditorLineStartWithSelection" />
+      <action id="EditorLineStartWithSelection" />
+      <action id="EditorBackSpace" />
+    </macro>
+    <macro name="console.log('x' = x);">
+      <action id="EditorLineEnd" />
+      <action id="EditorLineStartWithSelection" />
+      <action id="EditorCopy" />
+      <action id="EditorLeft" />
+      <typing text-keycode="222:0">'</typing>
+      <action id="EditorLineEnd" />
+      <typing text-keycode="32:0;61:0;32:0;222:0;61:1">&amp;#x20;=&amp;#x20;'+</typing>
+      <action id="EditorPaste" />
+      <action id="EditorLineStart" />
+      <typing text-keycode="67:0;79:0;78:0;83:0;79:0;76:0;69:0;46:0;76:0;79:0;71:0;57:1">console.log(</typing>
+      <action id="EditorLineEnd" />
+      <typing text-keycode="48:1;59:0">);</typing>
+    </macro>
+    <macro name="\log::info">
+      <action id="EditorLineStart" />
+      <typing text-keycode="76:1;79:0;71:0;59:1;59:1;73:0;78:0;70:0;79:0;57:1">Log::info(</typing>
+      <action id="EditorLineEnd" />
+      <typing text-keycode="48:1;59:0">);</typing>
+    </macro>
+    <macro name="Blade-html comment">
+      <action id="EditorLineStart" />
+      <typing text-keycode="91:1;91:1;45:0;45:0;32:0;44:1;49:1;45:0;45:0;32:0">{{--&amp;#x20;&lt;!--&amp;#x20;</typing>
+      <action id="EditorLineEnd" />
+      <typing text-keycode="32:0;45:0;45:0;46:1;32:0;45:0;45:0;93:1;93:1">&amp;#x20;--&gt;&amp;#x20;--}}</typing>
+    </macro>
+    <macro name="write2log without quotes">
+      <typing text-keycode="44:0;32:0;91:0;93:0;48:1;59:0">,&amp;#x20;[]);</typing>
+      <action id="EditorLineStart" />
+      <typing text-keycode="87:0;82:0;73:0;84:0;69:0;50:0;76:0;79:0;71:0;57:1">write2log(</typing>
+      <action id="EditorLineEnd" />
+      <action id="EditorLeft" />
+      <action id="EditorLeft" />
+      <action id="EditorLeft" />
+    </macro>
+    <macro name="write2log with quotes">
+      <action id="EditorLineStart" />
+      <typing text-keycode="222:0">'</typing>
+      <action id="EditorLineEnd" />
+      <typing text-keycode="222:0;44:0;32:0;91:0;93:0;48:1;59:0">',&amp;#x20;[]);</typing>
+      <action id="EditorLineStart" />
+      <typing text-keycode="87:0;82:0;73:0;84:0;69:0;50:0;76:0;79:0;71:0;57:1">write2log(</typing>
+      <action id="EditorLineEnd" />
+      <action id="EditorLeft" />
+      <action id="EditorLeft" />
+      <action id="EditorLeft" />
+    </macro>
+    <macro name="Bullet Point">
+      <shortuct text="NUM_LOCK" />
+      <shortuct text="alt NUMPAD7" />
+      <shortuct text="NUM_LOCK" />
+    </macro>
+    <macro name="Bullet Point 2">
+      <shortuct text="NUM_LOCK" />
+      <shortuct text="alt NUMPAD7" />
+      <shortuct text="NUM_LOCK" />
+    </macro>
+    <macro name="pre_var_dump">
+      <action id="EditorLineStart" />
+      <action id="EditorEnter" />
+      <action id="EditorUp" />
+      <typing text-keycode="86:0;65:0;82:0;45:1;68:0;85:0;77:0;80:0;57:1;222:0;44:1;80:0;82:0;69:0;46:1">var_dump('&lt;pre&gt;</typing>
+      <action id="EditorLineEnd" />
+      <typing text-keycode="59:0">;</typing>
+      <action id="EditorDown" />
+      <action id="EditorLineStart" />
+      <typing text-keycode="86:0;65:0;82:0;45:1;68:0;85:0;77:0;80:0;57:1">var_dump(</typing>
+      <action id="EditorLineEnd" />
+      <typing text-keycode="48:1;59:0">);</typing>
+      <action id="EditorEnter" />
+      <action id="EditorLineStart" />
+      <typing text-keycode="86:0;65:0;82:0;45:1;68:0;85:0;77:0;80:0;57:1;222:0;44:1;47:0;80:0;82:0;69:0;46:1">var_dump('&lt;/pre&gt;</typing>
+      <action id="EditorLineEnd" />
+      <typing text-keycode="59:0">;</typing>
+    </macro>
+    <macro name="\Log::info new">
+      <action id="EditorLineStart" />
+      <typing text-keycode="92:0;76:1;79:0;71:0;59:1;59:1;73:0;78:0;70:0;79:0;57:1">\Log::info(</typing>
+      <action id="EditorLineEnd" />
+      <typing text-keycode="48:1;59:0">);</typing>
+    </macro>
+  </component>
+</application>
+

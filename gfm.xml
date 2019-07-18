@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application>
+  <component name="GfmSettings" githubAccessToken="" connectionTimeout="2000" socketTimeout="2000" renderingEngine="JX_BROWSER" useOffline="true" replacePreviewTab="false" useFullWidthRendering="false" />
+</application>
+

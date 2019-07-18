@@ -1,0 +1,153 @@
+<application>
+  <component name="FileTypeManager" version="17">
+    <ignoreFiles list="*.hprof;*.pyc;*.pyo;*.rbc;*~;.DS_Store;.hg;.svn;CVS;RCS;SCCS;__pycache__;_svn;rcs;" />
+    <extensionMap>
+      <mapping pattern="install_git" type="Bash" />
+      <mapping pattern="aliases" type="Bash" />
+      <mapping pattern="getLoginCredentials" type="Bash" />
+      <mapping pattern="get_ssh_login_credentials" type="Bash" />
+      <mapping pattern="provision" type="Bash" />
+      <mapping pattern="css" type="CSS" />
+      <mapping ext="tpl" type="HTML" />
+      <mapping pattern="1" type="Images" />
+      <mapping pattern="image1" type="Images" />
+      <mapping pattern="image" type="Images" />
+      <mapping pattern="98" type="Images" />
+      <mapping pattern="97" type="Images" />
+      <mapping pattern="91" type="Images" />
+      <mapping pattern="110" type="Images" />
+      <mapping pattern="103" type="Images" />
+      <mapping pattern="100" type="Images" />
+      <mapping pattern="74" type="Images" />
+      <mapping pattern="73" type="Images" />
+      <mapping pattern="image2" type="Images" />
+      <mapping pattern="71" type="Images" />
+      <mapping pattern="70" type="Images" />
+      <mapping pattern="69" type="Images" />
+      <mapping pattern="65" type="Images" />
+      <mapping pattern="64" type="Images" />
+      <mapping pattern="63" type="Images" />
+      <mapping pattern="62" type="Images" />
+      <mapping pattern="50" type="Images" />
+      <mapping pattern="25" type="Images" />
+      <mapping pattern="22" type="Images" />
+      <mapping pattern="21" type="Images" />
+      <mapping pattern="testSp" type="PHP" />
+      <mapping pattern="puppiton_auth" type="PLAIN_TEXT" />
+      <mapping pattern="NodeJS + NPM" type="PLAIN_TEXT" />
+      <mapping pattern="ubuntu_startup" type="PLAIN_TEXT" />
+      <mapping pattern="Список всех событий" type="PLAIN_TEXT" />
+      <mapping pattern="puppiton" type="PLAIN_TEXT" />
+      <mapping pattern="data_to_load_in_table" type="PLAIN_TEXT" />
+      <mapping pattern="p5" type="PLAIN_TEXT" />
+      <mapping pattern="Архитектура" type="PLAIN_TEXT" />
+      <mapping pattern="svg" type="PLAIN_TEXT" />
+      <mapping pattern="update" type="PLAIN_TEXT" />
+      <mapping pattern="api" type="PLAIN_TEXT" />
+      <mapping pattern="Gulp" type="PLAIN_TEXT" />
+      <mapping pattern="Модули" type="PLAIN_TEXT" />
+      <mapping pattern="Docker + Infinit + ECS" type="PLAIN_TEXT" />
+      <mapping pattern="Level #, Module #, LabWork #, page #, theme" type="PLAIN_TEXT" />
+      <mapping pattern="sass" type="PLAIN_TEXT" />
+      <mapping pattern="Vagrant" type="PLAIN_TEXT" />
+      <mapping pattern="Bash" type="PLAIN_TEXT" />
+      <mapping pattern="WYSIWYG - редакторы" type="PLAIN_TEXT" />
+      <mapping pattern="laravel5 - docs" type="PLAIN_TEXT" />
+      <mapping pattern="Команда для создания заселятелей" type="PLAIN_TEXT" />
+      <mapping pattern="Создание базы данных" type="PLAIN_TEXT" />
+      <mapping pattern="React" type="PLAIN_TEXT" />
+      <mapping pattern="test1" type="PLAIN_TEXT" />
+      <mapping pattern="Docker" type="PLAIN_TEXT" />
+      <mapping pattern="Redis" type="PLAIN_TEXT" />
+      <mapping pattern="readme" type="PLAIN_TEXT" />
+      <mapping pattern="branch" type="PLAIN_TEXT" />
+      <mapping pattern="NodeJS" type="PLAIN_TEXT" />
+      <mapping pattern="Команда для создания миграций" type="PLAIN_TEXT" />
+      <mapping pattern="test" type="PLAIN_TEXT" />
+      <mapping pattern="data_to_load_in_table 2" type="PLAIN_TEXT" />
+      <mapping pattern="KnockoutJS" type="PLAIN_TEXT" />
+      <mapping pattern="Сборки" type="PLAIN_TEXT" />
+      <mapping pattern="help" type="PLAIN_TEXT" />
+      <mapping pattern="gulp" type="PLAIN_TEXT" />
+      <mapping pattern="Библиотечное оглавление" type="PLAIN_TEXT" />
+      <mapping pattern="123" type="PLAIN_TEXT" />
+      <mapping pattern="Описание происходящего" type="PLAIN_TEXT" />
+      <mapping pattern="Git" type="PLAIN_TEXT" />
+      <mapping pattern="Описание" type="PLAIN_TEXT" />
+      <mapping pattern="laravel - изменения между версиями" type="PLAIN_TEXT" />
+      <mapping pattern="Деревья" type="PLAIN_TEXT" />
+      <mapping pattern=".htpasswd" type="PLAIN_TEXT" />
+      <mapping pattern="files" type="PLAIN_TEXT" />
+      <mapping pattern="up_setup" type="PLAIN_TEXT" />
+      <mapping pattern="Bower" type="PLAIN_TEXT" />
+      <mapping pattern="Ubuntu" type="PLAIN_TEXT" />
+      <mapping pattern="Docker + Swarm + Infinit" type="PLAIN_TEXT" />
+      <mapping pattern="schedule-f9f277e24498dcf8c5251444614c0058746fa0a2" type="PLAIN_TEXT" />
+      <mapping pattern="startup" type="PLAIN_TEXT" />
+      <mapping pattern="Google Apps Script" type="PLAIN_TEXT" />
+      <mapping ext=" pagination" type="PLAIN_TEXT" />
+      <mapping ext=" config" type="PLAIN_TEXT" />
+      <mapping ext=" file" type="PLAIN_TEXT" />
+      <mapping ext=" файл с данными" type="PLAIN_TEXT" />
+      <mapping ext=" url" type="PLAIN_TEXT" />
+      <mapping ext=" app" type="PLAIN_TEXT" />
+      <mapping ext="cookie" type="PLAIN_TEXT" />
+      <mapping ext="info" type="PLAIN_TEXT" />
+      <mapping ext=" eloquent" type="PLAIN_TEXT" />
+      <mapping ext=" route" type="PLAIN_TEXT" />
+      <mapping ext=" создание базы данных" type="PLAIN_TEXT" />
+      <mapping ext=" response" type="PLAIN_TEXT" />
+      <mapping ext=" view" type="PLAIN_TEXT" />
+      <mapping ext=" request" type="PLAIN_TEXT" />
+      <mapping ext="mwb" type="PLAIN_TEXT" />
+      <mapping ext="cookies" type="PLAIN_TEXT" />
+      <mapping ext="cookiefile" type="PLAIN_TEXT" />
+      <mapping ext="]" type="PLAIN_TEXT" />
+      <mapping ext=" оглавление" type="PLAIN_TEXT" />
+      <mapping pattern="5. Storage engines и подробно об INNODB" type="SQL" />
+      <mapping pattern="9. Сохраненные программы и представления" type="SQL" />
+      <mapping pattern="13. Синтаксис SQL - администрирование MySQL" type="SQL" />
+      <mapping pattern="12. Синтаксис SQL - транзакции и блокировки" type="SQL" />
+      <mapping pattern="12. Синтаксис SQL - транзакции, составные выражения" type="SQL" />
+      <mapping pattern="5. Storage engines and INNODB" type="SQL" />
+      <mapping pattern="8. Синтаксис SQL - data definition statements" type="SQL" />
+      <mapping pattern="8. Синтаксис SQL-выражений" type="SQL" />
+      <mapping pattern="10. Индексы и оптимизация" type="SQL" />
+      <mapping pattern="1. Создание базы данных" type="SQL" />
+      <mapping pattern="11. Синтаксис SQL - data manipulation statementsf" type="SQL" />
+      <mapping pattern="7. Лимиты в MySQL" type="SQL" />
+      <mapping pattern="9. Сохраняемые программы и представления" type="SQL" />
+      <mapping pattern="13. Синтаксис SQL - администр., утилиты MySQL" type="SQL" />
+      <mapping pattern="batch-mode-test-file" type="SQL" />
+      <mapping pattern="6. Типы данных в MySQL" type="SQL" />
+      <mapping pattern="10. Индексы, ключи, оптимизация" type="SQL" />
+      <mapping ext=" типы данных" type="SQL" />
+      <mapping ext=" объединение таблиц join" type="SQL" />
+      <mapping ext=" синтаксис sql - data manipulation statements" type="SQL" />
+      <mapping ext=" функции-агрегаты" type="SQL" />
+      <mapping ext=" создание базы данных, комментарии" type="SQL" />
+      <mapping ext=" пример - расписание занятий" type="SQL" />
+      <mapping ext=" индексы" type="SQL" />
+      <mapping ext=" блокировки, транзакции" type="SQL" />
+      <mapping ext=" создание таблиц" type="SQL" />
+      <mapping ext=" хранимые процедуры и функции, триггеры, курсоры, циклы" type="SQL" />
+      <mapping ext=" полнотекстовый поиск, индекс" type="SQL" />
+      <mapping ext=" select" type="SQL" />
+      <mapping ext=" типы хранилищ mysql" type="SQL" />
+      <mapping ext=" хранимые процедуры и триггеры" type="SQL" />
+      <mapping ext=" полнотекстовый поиск" type="SQL" />
+      <mapping ext=" резервное копирование, оптимизация, обслуживание сервера" type="SQL" />
+      <mapping ext=" манипуляция данными в таблицах" type="SQL" />
+      <mapping ext=" функции и операторы sql" type="SQL" />
+      <mapping ext=" оператор select" type="SQL" />
+      <mapping ext=" реверс-инжиниринг" type="SQL" />
+      <mapping ext=" выражения, функции, операторы" type="SQL" />
+      <mapping ext=" полнотекстовый индекс-поиск" type="SQL" />
+      <mapping ext=" временные таблицы и вьюхи" type="SQL" />
+      <mapping ext=" information schema" type="SQL" />
+      <removed_mapping ext="tpl" type="Smarty" />
+      <removed_mapping ext="conf" type="SmartyConfig" />
+      <mapping pattern="aa" type="SQL files" />
+    </extensionMap>
+  </component>
+</application>

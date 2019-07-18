@@ -1,0 +1,14 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="33a77c98-264e-45f2-894c-87c48d4582d2" name="dev.app.sftp" url="http://127.0.0.1">
+        <fileTransfer host="127.0.0.1" port="2222" privateKey="C:\WebDev\bin\ssh\Homestead - app.dev\key_for_putty_and_homestead.ppk" rootFolder="/home/vagrant" accessType="SFTP" keyPair="true" username="vagrant">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="2222" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</application>

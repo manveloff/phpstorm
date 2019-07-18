@@ -1,0 +1,8 @@
+<templateSet group="Vue">
+  <template name="ajax" value="axios.post('/api/', {&#10;  message: this.input&#10;})&#10;  .then((response) =&gt; {&#10;&#10;    // 1. &#10;&#10;  })&#10;  .catch((error) =&gt; {&#10;    console.log(error);&#10;  });" description="axios ajax request" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="Vue" value="true" />
+    </context>
+  </template>
+</templateSet>

@@ -1,0 +1,54 @@
+<templateSet group="JavaScript">
+  <template name="iter" value="for each (var $VAR$ in $ARRAY$) {&#10;  $END$&#10;}" description="Iterate (for each..in) - JavaScript 1.6+" toReformat="true" toShortenFQNames="true">
+    <variable name="ARRAY" expression="jsArrayVariable()" defaultValue="&quot;array &quot;" alwaysStopAt="true" />
+    <variable name="VAR" expression="jsSuggestVariableName()" defaultValue="&quot;o&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JSP" value="false" />
+      <option name="JS_STATEMENT" value="false" />
+    </context>
+  </template>
+  <template name="itin" value="for (var $VAR$ in $ARRAY$) {&#10;  $END$&#10;}" description="Iterate (for..in)" toReformat="true" toShortenFQNames="true">
+    <variable name="ARRAY" expression="jsArrayVariable()" defaultValue="&quot;array &quot;" alwaysStopAt="true" />
+    <variable name="VAR" expression="jsSuggestVariableName()" defaultValue="&quot;o&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JSP" value="false" />
+      <option name="JS_STATEMENT" value="false" />
+    </context>
+  </template>
+  <template name="itar" value="for (var $INDEX$ = 0; $INDEX$ &lt; $ARRAY$.length; $INDEX$++) {&#10;  var $VAR$ = $ARRAY$[$INDEX$];&#10;  $END$&#10;}" description="Iterate elements of array" toReformat="true" toShortenFQNames="true">
+    <variable name="INDEX" expression="jsSuggestIndexName()" defaultValue="&quot;i&quot;" alwaysStopAt="true" />
+    <variable name="ARRAY" expression="jsArrayVariable()" defaultValue="&quot;array&quot;" alwaysStopAt="true" />
+    <variable name="VAR" expression="jsSuggestVariableName()" defaultValue="&quot;o&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JSP" value="false" />
+      <option name="JS_STATEMENT" value="false" />
+    </context>
+  </template>
+  <template name="ritar" value="for (var $INDEX$ = $ARRAY$.length - 1; $INDEX$ &gt;= 0; $INDEX$--) {&#10;  var $VAR$ = $ARRAY$[$INDEX$];&#10;  $END$&#10;}" description="Iterate elements of array in reverse order" toReformat="true" toShortenFQNames="true">
+    <variable name="INDEX" expression="jsSuggestIndexName()" defaultValue="&quot;i&quot;" alwaysStopAt="true" />
+    <variable name="ARRAY" expression="jsArrayVariable()" defaultValue="&quot;array&quot;" alwaysStopAt="true" />
+    <variable name="VAR" expression="jsSuggestVariableName()" defaultValue="&quot;o&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JSP" value="false" />
+      <option name="JS_STATEMENT" value="false" />
+    </context>
+  </template>
+  <template name="us" value="&quot;use strict&quot;;&#10;$END$" description="Inserts 'use strict' statement" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JSP" value="false" />
+      <option name="JS_STATEMENT" value="false" />
+    </context>
+  </template>
+  <template name="с1" value="&lt;c1&gt;&lt;/c1&gt;" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JSP" value="true" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="ajaxko" value="ajaxko(self, {&#10;&#10;&#9;command: &#9;&quot;\\M1\\Commands\\C1_command&quot;,&#10;&#9;from: &#9;&#9;&quot;ajaxko&quot;,&#10;  data: &#9;&#9;{},&#10;  prejob: &#9;function(config, data, event){},&#10;  postjob: &#9;function(data, params){},&#10;  ok_0: &#9;&#9;function(data, params){},&#10;  ok_1: &#9;&#9;function(data, params){},&#10;  ok_2: &#9;&#9;function(data, params){},&#10;  //dont_touch_ajax_counter: true,&#10;  //ajax_params: {},&#10;&#9;//ajax_request_body: fd,&#10;&#9;//timestamp:    Date.now(),&#10;&#9;//ajax_headers: {&quot;X-CSRF-TOKEN&quot;: server.csrf_token},&#10;  //key: &#9;&#9;&#9;&quot;D1:1&quot;,&#10;&#9;//from_ex: &#9;[],&#10;  //callback: function(data, params){},&#10;  //error: function(){},&#10;  //timeout: function(){},&#10;  //timeout_sec: 200,&#10;  //url: window.location.href,&#10;  //ajax_method: &quot;post&quot;,&#10;  //ajax_headers: {&quot;Content-Type&quot;: &quot;application/json&quot;, &quot;X-CSRF-TOKEN&quot;: server.csrf_token}&#10;&#10;});" description="ajax request function" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JSP" value="false" />
+    </context>
+  </template>
+</templateSet>

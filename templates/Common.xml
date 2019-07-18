@@ -1,0 +1,14 @@
+<templateSet group="Common">
+  <template name="*" value="•" description="Bullet Point" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JSP" value="true" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="**" value="▪" description="Square Point" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JSP" value="true" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+</templateSet>

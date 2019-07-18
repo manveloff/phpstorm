@@ -1,0 +1,86 @@
+<templateSet group="My ko-components">
+  <template name="c1" value="&lt;i2 comment=&quot;Меню&quot; params=&quot;&#10;  menuitems:  [&#10;                {&#10;                  id: '1',&#10;                  name: 'Пункт1'&#10;                },&#10;                {&#10;                  id: '2',&#10;                  name: 'Пункт2'&#10;                }&#10;              ]&#10;&quot;&gt;&lt;/i2&gt;" description="Меню" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JSP" value="true" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="c2" value="&lt;c2_button_v1 params=&quot;click: function(){}, text: 'Кнопка', margin: undefined, padding: undefined, context: $data&quot;&gt;&lt;/c2_button_v1&gt;" description="Кнопка: белая, малая" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JSP" value="true" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="c2_blue" value="&lt;c2_button_v1 params=&quot;click: function(){}, text: 'Создать', margin: undefined, padding: undefined, context: $data, tcolor: '#89a1c7', bcolor: '#7790b6', bhcolor: '#6980a3', fontcolor: '#fff'&quot;&gt;&lt;/c2_button_v1&gt;" description="Кнопка: синяя, малая" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JSP" value="true" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="c2_red" value="&lt;c2_button_v1 params=&quot;click: function(){}, text: 'Запостить', margin: undefined, padding: undefined, context: $data, tcolor: '#b96a6c', bcolor: '#ae6773', bhcolor: '#ac7780', fontcolor: '#fff'&quot;&gt;&lt;/c2_button_v1&gt;" description="Кнопка: красная, малая" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JSP" value="true" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="c2_big" value="&lt;c2_button_v1 params=&quot;click: function(){}, size: '25px', text: 'Создать', margin: undefined, padding: undefined, context: $data&quot;&gt;&lt;/c2_button_v1&gt;&#10;" description="Кнопка: белая, большая" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JSP" value="true" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="c2_blue_big" value="&lt;c2_button_v1 params=&quot;click: function(){}, text: 'Создать', margin: undefined, padding: undefined, context: $data, tcolor: '#89a1c7', bcolor: '#7790b6', bhcolor: '#6980a3', fontcolor: '#fff', size: '25px'&quot;&gt;&lt;/c2_button_v1&gt;" description="Кнопка: синяя, большая" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JSP" value="true" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="c2_red_big" value="&lt;c2_button_v1 params=&quot;click: function(){}, text: 'Запостить', margin: undefined, padding: undefined, context: $data, tcolor: '#b96a6c', bcolor: '#ae6773', bhcolor: '#ac7780', fontcolor: '#fff', size: '25px'&quot;&gt;&lt;/c2_button_v1&gt;" description="Кнопка: красная, большая" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JSP" value="true" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="c3" value="&lt;c3_input_v1  params=&quot;text:         'Имя:',&#10;                      textinput:    m.s1.name,&#10;                      oninput:      function(){},&#10;                      placeholder:  'Плейсхолдер',&#10;                      margin:       undefined,&#10;                      padding:      undefined,&#10;                      anno_width:   'span50',&#10;                      input_width:  'span50',                      &#10;                      readonly:     false,&#10;                      is_password:  undefined&quot;&gt;&lt;/c3_input_v1&gt;" description="Input с лэйблом для формы" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JSP" value="true" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="c4" value="&lt;c4_textarea_v1  params=&quot;&#9;text:       'Описание',&#10;                          textinput:  m.s1.description,&#10;                          oninput:    f.s1.func,&#10;                          placeholder: 'Плейсхолдер',&#10;                          rows:       3,&#10;                          margin:     undefined,&#10;                          padding:    undefined,&#10;                          readonly:   false&quot;&gt;&lt;/c4_textarea_v1&gt;" description="Textarea с лэйблом для формы" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JSP" value="true" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="c5" value="&lt;c5_select_v1  params=&quot;&#9;options:    &#9;&#9;m.s1.options,&#10;                        value:          m.s1.value,&#10;                        optionsText:    function(item){ return item().name(); },&#10;                        optionsValue:   function(item){ return item().id(); },&#10;                        onchange:&#9;&#9;&#9;&#9;function(){},&#10;                        text:           'Лэйбл для select:',&#10;                        margin:         undefined,&#10;                        padding:        undefined,&#10;                        sel_width:      '',                        &#10;                        anno_width:     'span60',&#10;                        input_width:    'span40'&quot;&gt;&lt;/c5_select_v1&gt;" description="Select с лэйблом для формы" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JSP" value="true" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="c2_green" value="&lt;c2_button_v1 params=&quot;click: function(){}, text: 'Создать', margin: undefined, padding: undefined, context: $data, tcolor: '#96a550', bcolor: '#99aa64', bhcolor: '#9ea268', fontcolor: '#fff'&quot;&gt;&lt;/c2_button_v1&gt;&#10;" description="Кнопка: зелёная, малая" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JSP" value="true" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="c2_green_big" value="&lt;c2_button_v1 params=&quot;click: function(){}, text: 'Создать', margin: undefined, padding: undefined, context: $data, tcolor: '#96a550', bcolor: '#99aa64', bhcolor: '#9ea268', fontcolor: '#fff', size: '25px'&quot;&gt;&lt;/c2_button_v1&gt;&#10;" description="Кнопка: зелёная, большая" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JSP" value="true" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="c6" value="&lt;c6_range_v1 params=&quot;&#10;  name:           '',&#10;  unit:           '',&#10;  min:            0,&#10;  max:            150,&#10;  min_current:    m.s1.minimum,&#10;  max_current:    m.s1.maximum, &#10;  mtrack_width:   230,&#10;             &#10;  onchange:       function(){},&#10;  runner_width:   undefined,&#10;  padding_body:   undefined,&#10;  padding:        undefined,&#10;  margin:         undefined,&#10;&#10;  color_name:     undefined,&#10;  size_name:      undefined,&#10;  style_name:     undefined,&#10;&#10;  color_unit:     undefined,&#10;  size_unit:      undefined,&#10;&#10;  color_min_max:  undefined,&#10;  bg_min_max:     undefined,&#10;  brd_min_max:    undefined,&#10;  brdr_min_max:   undefined,&#10;  size_min_max:   undefined,&#10;&#10;  bg_track:       undefined,&#10;  brd_track:      undefined,&#10;&#10;  bg_track_sel:   undefined,&#10;  brd_track_sel:  undefined,&#10;&#10;  bg_runner:      undefined,&#10;  brd_runner:     undefined&#10;&#10;&quot;&gt;&lt;/c6_range_v1&gt;" description="Выбор диапазона чисел" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JSP" value="true" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="c2_superred" value="&lt;c2_button_v1 params=&quot;click: function(){}, text: 'Оформить заказ', margin: '20px 0 0 0', padding: '4px 20px', context: $data, tcolor: '#FF3236', bcolor: '#603435', bhcolor: '#7F4646', fontcolor: '#fff', size: '20px', border: '1px solid #333'&quot;&gt;&lt;/c2_button_v1&gt;" description="Кнопка: ядрёно-красная, средняя" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JSP" value="true" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+</templateSet>

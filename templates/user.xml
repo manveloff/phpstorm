@@ -1,0 +1,57 @@
+<templateSet group="user">
+  <template name="pf" value="&lt;script src='$END$http://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js'&gt;&lt;/script&gt;" description="Prefix Free" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="jq" value="&lt;script src='$END$http://code.jquery.com/jquery-1.10.2.min.js'&gt;&lt;/script&gt;" description="jQuery" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="sv" value="&lt;script src='$END$http://cdnjs.cloudflare.com/ajax/libs/selectivizr/1.0.2/selectivizr-min.js'&gt;&lt;/script&gt;" description="selectivizr" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="ph140" value="&lt;img src=&quot;http://placehold.it/140x100&quot;&gt;" description="placeholder image 140x100 px" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JSP" value="false" />
+    </context>
+  </template>
+  <template name="ph200" value="&lt;img src=&quot;http://placehold.it/200x100&quot;&gt;" description="placeholder image 200x100 px" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JSP" value="false" />
+    </context>
+  </template>
+  <template name="ph350" value="&lt;img src=&quot;http://placehold.it/350x150&quot;&gt;" description="placeholder image 350x140 px" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JSP" value="false" />
+    </context>
+  </template>
+  <template name="ph350_65" value="&lt;img src=&quot;http://placehold.it/350x65&quot;&gt;" description="placeholder image 350x65 px" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JSP" value="false" />
+    </context>
+  </template>
+  <template name="runcommand" value="runcommand('\M1\Commands\C1_parseapp', [], &quot;&quot;, ['on'=&gt;false, 'delaysecs'=&gt;'']);" description="Выполнить команду" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JSP" value="false" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="transpack" value="if(r1_rel_exists(&quot;M4&quot;, &quot;MD1_routes&quot;, &quot;m1_packages&quot;)) {&#10;  $autoroute-&gt;m1_packages()-&gt;detach();&#10;}" description="Проверить существование транс-пакетной связи" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JSP" value="false" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+</templateSet>

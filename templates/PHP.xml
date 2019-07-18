@@ -1,0 +1,137 @@
+<templateSet group="PHP">
+  <template name="fore" value="foreach ($ITERABLE$ as $$$VAR_VALUE$) {&#10;    $END$&#10;}&#10;" description="foreach(iterable_expr as $value) {...}" toReformat="true" toShortenFQNames="true">
+    <variable name="ITERABLE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR_VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JSP" value="false" />
+      <option name="PHP Statement" value="false" />
+    </context>
+  </template>
+  <template name="forek" value="foreach ($ITERABLE$ as $$$VAR_KEY$ =&gt; $$$VAR_VALUE$) {&#10;    $END$&#10;}&#10;" description="foreach(iterable_expr as $key =&gt; $value) {...}" toReformat="true" toShortenFQNames="true">
+    <variable name="ITERABLE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR_KEY" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR_VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JSP" value="false" />
+      <option name="PHP Statement" value="false" />
+    </context>
+  </template>
+  <template name="thr" value="throw new $END$" description="throw new" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JSP" value="false" />
+      <option name="PHP Statement" value="false" />
+    </context>
+  </template>
+  <template name="eco" value="echo &quot;$END$&quot;;" description="'echo' statement" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JSP" value="false" />
+      <option name="PHP Statement" value="false" />
+    </context>
+  </template>
+  <template name="rqr" value="require &quot;$END$&quot;;" description="'require' statement" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JSP" value="false" />
+      <option name="PHP Expression" value="false" />
+      <option name="PHP Statement" value="false" />
+    </context>
+  </template>
+  <template name="rqro" value="require_once &quot;$END$&quot;;" description="'require_once' statement" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JSP" value="false" />
+      <option name="PHP Expression" value="false" />
+      <option name="PHP Statement" value="false" />
+    </context>
+  </template>
+  <template name="inc" value="include &quot;$END$&quot;;" description="'include' statement" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JSP" value="false" />
+      <option name="PHP Expression" value="false" />
+      <option name="PHP Statement" value="false" />
+    </context>
+  </template>
+  <template name="inco" value="include_once &quot;$END$&quot;;" description="'include_once' statement" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JSP" value="false" />
+      <option name="PHP Expression" value="false" />
+      <option name="PHP Statement" value="false" />
+    </context>
+  </template>
+  <template name="pubf" value="public function $NAME$($PARAMETERS$){&#10;    $END$&#10;}" description="public function" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAMETERS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JSP" value="false" />
+      <option name="PHP Class Member" value="false" />
+    </context>
+  </template>
+  <template name="pubsf" value="public static function $NAME$($PARAMETERS$){&#10;    $END$&#10;}" description="public static function" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAMETERS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JSP" value="false" />
+      <option name="PHP Class Member" value="false" />
+    </context>
+  </template>
+  <template name="prof" value="protected function $NAME$($PARAMETERS$){&#10;    $END$&#10;}" description="protected function" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAMETERS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JSP" value="false" />
+      <option name="PHP Class Member" value="false" />
+    </context>
+  </template>
+  <template name="prosf" value="protected static function $NAME$($PARAMETERS$){&#10;    $END$&#10;}" description="protected static function" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAMETERS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JSP" value="false" />
+      <option name="PHP Class Member" value="false" />
+    </context>
+  </template>
+  <template name="prif" value="private function $NAME$($PARAMETERS$){&#10;    $END$&#10;}" description="private function" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAMETERS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JSP" value="false" />
+      <option name="PHP Class Member" value="false" />
+    </context>
+  </template>
+  <template name="prisf" value="private static function $NAME$($PARAMETERS$){&#10;    $END$&#10;}" description="private static function" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAMETERS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JSP" value="false" />
+      <option name="PHP Class Member" value="false" />
+    </context>
+  </template>
+  <template name="fire" value="Event::fire(new \R2\Event([&#10;  'keys'  =&gt; ['m1:afterupdate'],&#10;  'data'  =&gt; [&#10;    &#10;  ]&#10;]));" description="Fire \R2\Event code" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JSP" value="false" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="broadcast" value="Event::fire(new \R2\Broadcast([&#10;  'channels' =&gt; ['m3:now'],&#10;  'queue'    =&gt; 'default',&#10;  'data'     =&gt; [&#10;  &#10;  ]&#10;]));" description="Fire \R2\Broadcast code" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JSP" value="false" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="command" value="$result = runcommand('\M1\Commands\C1_command', [&#10;  &#10;]);&#10;if($result['status'] != 0) &#10;  throw new \Exception($result['data']['errormsg']);&#10;" description="Invoke command" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JSP" value="false" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="validate" value="$validator = helper_validate($this-&gt;data, [&#10;&#10;  &quot;id&quot;              =&gt; [&quot;required&quot;, &quot;regex:/^[1-9]+[0-9]*$/ui&quot;],&#10;  &quot;name&quot;            =&gt; [&quot;required&quot;, &quot;regex:/^[a-zа-яё]+$/ui&quot;],&#10;  &quot;email&quot;           =&gt; [&quot;required&quot;, &quot;email&quot;],&#10;  &quot;password&quot;        =&gt; [&quot;required&quot;, &quot;min:&quot;.config(&quot;M5.common_min_chars_in_pass&quot;)],&#10;  &quot;isanonymous&quot;     =&gt; [&quot;required&quot;, &quot;in:yes,no&quot;],&#10;  &quot;surname&quot;         =&gt; [&quot;regex:/^([a-zа-яё]+|)$/ui&quot;],&#10;  &quot;patronymic&quot;      =&gt; [&quot;regex:/^([a-zа-яё]+|)$/ui&quot;],&#10;  &quot;gender&quot;          =&gt; [&quot;required&quot;, &quot;in:m,f,u&quot;],&#10;  &quot;birthday&quot;        =&gt; [&quot;regex:/^([0-9]{4}-([0]{1}[1-9]{1}|[1]{1}[0-2]{1})-[0-9]{2}|)$/ui&quot;],&#10;  &quot;phone&quot;           =&gt; [&quot;regex:/^([0-9]+|)$/ui&quot;],&#10;  &quot;skype&quot;           =&gt; [&quot;regex:/^(.+|)$/ui&quot;],&#10;  &quot;other_contacts&quot;  =&gt; [&quot;regex:/^(.+|)$/ui&quot;]&#10;&#10;]); if($validator['status'] == -1) {&#10;&#10;  throw new \Exception($validator['data']);&#10;&#10;}" description="Invokes validation of passed array of data against pointed rules" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JSP" value="false" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="validate_indexed" value="$validator = r4_validate($this-&gt;data['genders'], call_user_func(function() {&#10;&#10;  $result = [];&#10;  foreach($this-&gt;data['genders'] as $key =&gt; $value) {&#10;    $result[$key] = [&quot;required&quot;, &quot;in:m,f,u&quot;];&#10;  }&#10;  return $result;&#10;&#10;})); if($validator['status'] == -1) {&#10;&#10;  throw new \Exception($validator['data']);&#10;&#10;}" description="Validate values in an indexed array" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JSP" value="false" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+</templateSet>
