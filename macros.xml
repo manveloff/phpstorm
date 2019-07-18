@@ -1,0 +1,16 @@
+<application>
+  <component name="ActionMacroManager">
+    <macro name="console.log()">
+      <action id="EditorLineStart" />
+      <typing text-keycode="67:0;79:0;78:0;83:0;79:0;76:0;69:0;46:0;76:0;79:0;71:0;0:1">console.log(</typing>
+      <action id="EditorLineEnd" />
+      <typing text-keycode="0:1;59:0">);</typing>
+    </macro>
+    <macro name="\Log::info()">
+      <action id="EditorLineStart" />
+      <typing text-keycode="92:0;76:1;79:0;71:0;513:1;513:1;73:0;78:0;70:0;79:0;0:1">\Log::info(</typing>
+      <action id="EditorLineEnd" />
+      <typing text-keycode="0:1;59:0">);</typing>
+    </macro>
+  </component>
+</application>
