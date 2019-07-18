@@ -4,7 +4,6 @@
     <variable name="VAR" expression="jsSuggestVariableName()" defaultValue="&quot;o&quot;" alwaysStopAt="true" />
     <context>
       <option name="JSP" value="false" />
-      <option name="JS_STATEMENT" value="false" />
     </context>
   </template>
   <template name="itin" value="for (var $VAR$ in $ARRAY$) {&#10;  $END$&#10;}" description="Iterate (for..in)" toReformat="true" toShortenFQNames="true">

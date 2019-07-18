@@ -11,7 +11,7 @@
     <variable name="columns" expression="complete()" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JSP" value="false" />
-      <option name="SQL" value="false" />
+      <option name="SQL_STATEMENT" value="false" />
     </context>
   </template>
   <template name="selc" value="select count(*) from $table$ $alias$ where $alias$.$END$;" description="select count(*) from table with alias" toReformat="true" toShortenFQNames="false">
@@ -19,7 +19,7 @@
     <variable name="alias" expression="complete()" defaultValue="&quot;alias&quot;" alwaysStopAt="true" />
     <context>
       <option name="JSP" value="false" />
-      <option name="SQL" value="false" />
+      <option name="SQL_STATEMENT" value="false" />
     </context>
   </template>
   <template name="tab" value="create table $table$ (&#10;  $col$ $type$ $null$$END$&#10;);" description="create table (column)" toReformat="true" toShortenFQNames="false">
@@ -29,7 +29,7 @@
     <variable name="null" expression="" defaultValue="&quot;not null&quot;" alwaysStopAt="true" />
     <context>
       <option name="JSP" value="false" />
-      <option name="SQL" value="false" />
+      <option name="SQL_STATEMENT" value="false" />
     </context>
   </template>
   <template name="col" value="$col$ $type$ $null$$END$" description="column definition" toReformat="true" toShortenFQNames="false">
@@ -47,7 +47,7 @@
     <variable name="value" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JSP" value="false" />
-      <option name="SQL" value="false" />
+      <option name="SQL_STATEMENT" value="false" />
     </context>
   </template>
 </templateSet>
