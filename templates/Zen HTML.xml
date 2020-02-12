@@ -148,7 +148,6 @@
     <context>
       <option name="HTML_TEXT" value="false" />
       <option name="JSP" value="false" />
-      <option name="JSX_HTML" value="false" />
     </context>
   </template>
   <template name="frame" value="&lt;frame/&gt;" description="&lt;frame/&gt;" toReformat="true" toShortenFQNames="true">
@@ -162,7 +161,6 @@
     <context>
       <option name="HTML_TEXT" value="false" />
       <option name="JSP" value="false" />
-      <option name="JSX_HTML" value="false" />
     </context>
   </template>
   <template name="bdo" value="&lt;bdo dir=&quot;$VAR0$&quot;&gt;$END$&lt;/bdo&gt;" description="&lt;bdo dir=&quot;...&quot;&gt;...&lt;/bdo&gt;" toReformat="true" toShortenFQNames="true">

@@ -38,7 +38,7 @@
     <variable name="null" expression="" defaultValue="&quot;not null&quot;" alwaysStopAt="true" />
     <context>
       <option name="JSP" value="false" />
-      <option name="SQL" value="false" />
+      <option name="SQL_CODE" value="false" />
     </context>
   </template>
   <template name="upd" value="update $table_name$ set $col$ = $value$ where $END$;" description="update table set column value" toReformat="true" toShortenFQNames="false">
