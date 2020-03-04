@@ -8,6 +8,7 @@
       <mapping pattern="123" type="PLAIN_TEXT" />
       <mapping pattern="test" type="PLAIN_TEXT" />
       <mapping pattern=".keep" type="PLAIN_TEXT" />
+      <mapping pattern=".dockerignore" type="PLAIN_TEXT" />
       <mapping pattern="Как делаь дампы и восстанавливать БД" type="PLAIN_TEXT" />
       <mapping pattern="_shared" type="PLAIN_TEXT" />
       <mapping pattern="sdf" type="PLAIN_TEXT" />
