@@ -5,6 +5,7 @@
       <mapping pattern="stop" type="Bash" />
       <mapping pattern="start" type="Bash" />
       <mapping pattern="apple-app-site-association" type="PLAIN_TEXT" />
+      <mapping pattern="storage" type="PLAIN_TEXT" />
       <mapping pattern="123" type="PLAIN_TEXT" />
       <mapping pattern="test" type="PLAIN_TEXT" />
       <mapping pattern=".keep" type="PLAIN_TEXT" />
