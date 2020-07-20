@@ -1,21 +1,23 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
+      <mapping pattern="start" type="Bash" />
+      <mapping pattern="mkcert" type="Bash" />
       <mapping pattern="compile_all" type="Bash" />
       <mapping pattern="stop" type="Bash" />
-      <mapping pattern="start" type="Bash" />
-      <mapping pattern="apple-app-site-association" type="PLAIN_TEXT" />
       <mapping pattern="storage" type="PLAIN_TEXT" />
-      <mapping pattern="123" type="PLAIN_TEXT" />
-      <mapping pattern="test" type="PLAIN_TEXT" />
       <mapping pattern=".keep" type="PLAIN_TEXT" />
-      <mapping pattern=".dockerignore" type="PLAIN_TEXT" />
-      <mapping pattern="Как делаь дампы и восстанавливать БД" type="PLAIN_TEXT" />
-      <mapping pattern="_shared" type="PLAIN_TEXT" />
       <mapping pattern="sdf" type="PLAIN_TEXT" />
+      <mapping pattern="test" type="PLAIN_TEXT" />
+      <mapping pattern="apple-app-site-association" type="PLAIN_TEXT" />
+      <mapping pattern="Как делаь дампы и восстанавливать БД" type="PLAIN_TEXT" />
+      <mapping pattern=".dockerignore" type="PLAIN_TEXT" />
+      <mapping pattern="123" type="PLAIN_TEXT" />
+      <mapping pattern="_shared" type="PLAIN_TEXT" />
       <mapping ext="13100" type="PLAIN_TEXT" />
-      <mapping ext="111" type="PLAIN_TEXT" />
       <mapping ext="tgz" type="PLAIN_TEXT" />
+      <mapping ext="111" type="PLAIN_TEXT" />
+      <removed_mapping pattern="mkcert" approved="true" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>
