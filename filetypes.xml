@@ -17,6 +17,7 @@
       <mapping ext="13100" type="PLAIN_TEXT" />
       <mapping ext="tgz" type="PLAIN_TEXT" />
       <mapping ext="111" type="PLAIN_TEXT" />
+      <mapping ext="toml" type="PLAIN_TEXT" />
       <removed_mapping pattern="mkcert" approved="true" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
