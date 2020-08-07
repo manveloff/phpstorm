@@ -14,6 +14,7 @@
       <mapping pattern="Как делаь дампы и восстанавливать БД" type="PLAIN_TEXT" />
       <mapping pattern="_shared" type="PLAIN_TEXT" />
       <mapping pattern="sdf" type="PLAIN_TEXT" />
+      <mapping pattern="users" type="PLAIN_TEXT" />
       <mapping ext="toml" type="PLAIN_TEXT" />
       <mapping ext="13100" type="PLAIN_TEXT" />
       <mapping ext="tar" type="PLAIN_TEXT" />
