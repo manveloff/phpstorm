@@ -21,6 +21,7 @@
       <mapping ext="tar" type="PLAIN_TEXT" />
       <mapping ext="111" type="PLAIN_TEXT" />
       <mapping ext="tgz" type="PLAIN_TEXT" />
+      <mapping pattern="desc.html" type="Twig" />
       <removed_mapping pattern="mkcert" approved="true" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
