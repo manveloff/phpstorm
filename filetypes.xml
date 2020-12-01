@@ -13,6 +13,7 @@
       <mapping pattern="123" type="PLAIN_TEXT" />
       <mapping pattern="_shared" type="PLAIN_TEXT" />
       <mapping pattern="Как делаь дампы и восстанавливать БД" type="PLAIN_TEXT" />
+      <mapping pattern="accounts" type="PLAIN_TEXT" />
       <mapping ext="toml" type="PLAIN_TEXT" />
       <mapping ext="111" type="PLAIN_TEXT" />
       <mapping ext="tar" type="PLAIN_TEXT" />
