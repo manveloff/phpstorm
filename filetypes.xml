@@ -2,6 +2,7 @@
   <component name="FileTypeManager" version="17">
     <extensionMap>
       <mapping pattern="app" type="BashPro Shell Script" />
+      <mapping pattern="up_setup" type="BashPro Shell Script" />
       <mapping pattern="test" type="PLAIN_TEXT" />
       <mapping pattern=".dockerignore" type="PLAIN_TEXT" />
       <mapping pattern="Technical documentation" type="PLAIN_TEXT" />
