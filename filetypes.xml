@@ -9,6 +9,7 @@
       <mapping pattern="storage" type="PLAIN_TEXT" />
       <mapping pattern="apple-app-site-association" type="PLAIN_TEXT" />
       <mapping pattern="sdf" type="PLAIN_TEXT" />
+      <mapping pattern=".routes.file.swp" type="PLAIN_TEXT" />
       <mapping pattern="Техническая документация" type="PLAIN_TEXT" />
       <mapping pattern="bash" type="PLAIN_TEXT" />
       <mapping pattern=".env" type="PLAIN_TEXT" />
