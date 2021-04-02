@@ -21,6 +21,7 @@
       <mapping ext="toml" type="PLAIN_TEXT" />
       <mapping ext="111" type="PLAIN_TEXT" />
       <mapping ext="tar" type="PLAIN_TEXT" />
+      <mapping ext="z" type="PLAIN_TEXT" />
       <mapping ext="pem" type="PLAIN_TEXT" />
       <mapping ext="tgz" type="PLAIN_TEXT" />
       <mapping ext="13100" type="PLAIN_TEXT" />
