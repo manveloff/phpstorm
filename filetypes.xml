@@ -5,6 +5,7 @@
       <mapping pattern="-" type="AUTO_DETECTED" />
       <mapping pattern="app" type="AUTO_DETECTED" />
       <mapping pattern="rolling_update_service" type="AUTO_DETECTED" />
+      <mapping ext="json" type="JSON5" />
       <mapping pattern="users" type="PLAIN_TEXT" />
       <mapping pattern="test" type="PLAIN_TEXT" />
       <mapping pattern="phpunit" type="PLAIN_TEXT" />
@@ -30,6 +31,7 @@
       <mapping ext="tgz" type="PLAIN_TEXT" />
       <mapping ext="13100" type="PLAIN_TEXT" />
       <mapping pattern="desc.html" type="Twig" />
+      <removed_mapping ext="json" approved="true" type="JSON" />
       <removed_mapping pattern="mkcert" approved="true" type="PLAIN_TEXT" />
       <mapping pattern="app" type="BashPro Shell Script" />
       <mapping pattern="compile_all" type="Bash" />
