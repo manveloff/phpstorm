@@ -21,6 +21,7 @@
       <mapping pattern="phpunit" type="PLAIN_TEXT" />
       <mapping pattern="bash" type="PLAIN_TEXT" />
       <mapping pattern="accounts" type="PLAIN_TEXT" />
+      <mapping ext="plist" type="PLAIN_TEXT" />
       <mapping ext="toml" type="PLAIN_TEXT" />
       <mapping ext="111" type="PLAIN_TEXT" />
       <mapping ext="tar" type="PLAIN_TEXT" />
