@@ -3,6 +3,7 @@
     <extensionMap>
       <mapping pattern="еуые" type="AUTO_DETECTED" />
       <mapping pattern="Angular - тестирование" type="AUTO_DETECTED" />
+      <mapping pattern="JS - 70 вопросов для собеседования" type="AUTO_DETECTED" />
       <mapping pattern="PHP - классы, новинки синтаксиса v5-8" type="AUTO_DETECTED" />
       <mapping pattern="-" type="AUTO_DETECTED" />
       <mapping pattern="rolling_update_service" type="AUTO_DETECTED" />
