@@ -11,6 +11,7 @@
       <mapping pattern="sdfgsdgfd34]" type="AUTO_DETECTED" />
       <mapping pattern="id," type="AUTO_DETECTED" />
       <mapping pattern="RxJs: основы" type="JavaScript" />
+      <mapping pattern="ES62" type="Native" />
       <mapping pattern="Техническая документация" type="PLAIN_TEXT" />
       <mapping pattern=".keep" type="PLAIN_TEXT" />
       <mapping pattern="_shared" type="PLAIN_TEXT" />
