@@ -38,7 +38,6 @@
       <mapping ext="pem" type="PLAIN_TEXT" />
       <mapping ext="tgz" type="PLAIN_TEXT" />
       <mapping ext="13100" type="PLAIN_TEXT" />
-      <mapping pattern="app" type="Shell Script" />
       <mapping pattern="desc.html" type="Twig" />
       <removed_mapping ext="json" approved="true" type="JSON" />
       <removed_mapping pattern="mkcert" approved="true" type="PLAIN_TEXT" />
