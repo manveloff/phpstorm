@@ -25,7 +25,6 @@
     <variable name="VAR0" expression="" defaultValue="&quot;screen&quot;" alwaysStopAt="true" />
     <variable name="VAR1" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
     <context>
-      <option name="CSS_RULESET_LIST" value="false" />
       <option name="JSP" value="false" />
     </context>
   </template>
