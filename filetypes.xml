@@ -1,38 +1,38 @@
 <application>
   <component name="FileTypeManager" version="18">
     <extensionMap>
-      <mapping pattern="Новые трюки (2022-2023)" type="AUTO_DETECTED" />
-      <mapping pattern="-" type="AUTO_DETECTED" />
-      <mapping pattern="sdfgsdgfd34]" type="AUTO_DETECTED" />
-      <mapping pattern="id," type="AUTO_DETECTED" />
       <mapping pattern="еуые" type="AUTO_DETECTED" />
       <mapping pattern="JS - 70 вопросов для собеседования" type="AUTO_DETECTED" />
       <mapping pattern="PHP - классы, новинки синтаксиса v5-8" type="AUTO_DETECTED" />
       <mapping pattern="ПДД 2022" type="AUTO_DETECTED" />
+      <mapping pattern="Новые трюки (2022-2023)" type="AUTO_DETECTED" />
+      <mapping pattern="-" type="AUTO_DETECTED" />
       <mapping pattern="rolling_update_service" type="AUTO_DETECTED" />
       <mapping pattern="error" type="AUTO_DETECTED" />
       <mapping pattern="Новые фишки и трюки (2022-2023)" type="AUTO_DETECTED" />
+      <mapping pattern="sdfgsdgfd34]" type="AUTO_DETECTED" />
+      <mapping pattern="id," type="AUTO_DETECTED" />
       <mapping pattern="RxJs: основы" type="JavaScript" />
       <mapping pattern="ES62" type="Native" />
+      <mapping pattern="Техническая документация" type="PLAIN_TEXT" />
       <mapping pattern=".keep" type="PLAIN_TEXT" />
       <mapping pattern="_shared" type="PLAIN_TEXT" />
       <mapping pattern="Angular - тестирование" type="PLAIN_TEXT" />
-      <mapping pattern="123" type="PLAIN_TEXT" />
-      <mapping pattern="sdf" type="PLAIN_TEXT" />
-      <mapping pattern=".routes.file.swp" type="PLAIN_TEXT" />
-      <mapping pattern="Angular - 40 вопросов для собеседования" type="PLAIN_TEXT" />
-      <mapping pattern="Как делаь дампы и восстанавливать БД" type="PLAIN_TEXT" />
-      <mapping pattern="phpunit" type="PLAIN_TEXT" />
-      <mapping pattern="accounts" type="PLAIN_TEXT" />
-      <mapping pattern="Техническая документация" type="PLAIN_TEXT" />
       <mapping pattern=".dockerignore" type="PLAIN_TEXT" />
       <mapping pattern="test" type="PLAIN_TEXT" />
       <mapping pattern="users" type="PLAIN_TEXT" />
+      <mapping pattern="123" type="PLAIN_TEXT" />
+      <mapping pattern="sdf" type="PLAIN_TEXT" />
       <mapping pattern="apple-app-site-association" type="PLAIN_TEXT" />
+      <mapping pattern=".routes.file.swp" type="PLAIN_TEXT" />
       <mapping pattern="storage" type="PLAIN_TEXT" />
+      <mapping pattern="Angular - 40 вопросов для собеседования" type="PLAIN_TEXT" />
       <mapping pattern="Technical documentation" type="PLAIN_TEXT" />
+      <mapping pattern="Как делаь дампы и восстанавливать БД" type="PLAIN_TEXT" />
       <mapping pattern=".env" type="PLAIN_TEXT" />
+      <mapping pattern="phpunit" type="PLAIN_TEXT" />
       <mapping pattern="bash" type="PLAIN_TEXT" />
+      <mapping pattern="accounts" type="PLAIN_TEXT" />
       <mapping ext="plist" type="PLAIN_TEXT" />
       <mapping ext="toml" type="PLAIN_TEXT" />
       <mapping ext="111" type="PLAIN_TEXT" />
