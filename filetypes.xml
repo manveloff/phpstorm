@@ -8,10 +8,8 @@
       <mapping pattern="Новые трюки (2022-2023)" type="AUTO_DETECTED" />
       <mapping pattern="-" type="AUTO_DETECTED" />
       <mapping pattern="rolling_update_service" type="AUTO_DETECTED" />
-      <mapping pattern="stop" type="AUTO_DETECTED" />
       <mapping pattern="error" type="AUTO_DETECTED" />
       <mapping pattern="Новые фишки и трюки (2022-2023)" type="AUTO_DETECTED" />
-      <mapping pattern="start" type="AUTO_DETECTED" />
       <mapping pattern="sdfgsdgfd34]" type="AUTO_DETECTED" />
       <mapping pattern="id," type="AUTO_DETECTED" />
       <mapping pattern="RxJs: основы" type="JavaScript" />
