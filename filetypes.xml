@@ -38,6 +38,7 @@
       <mapping ext="111" type="PLAIN_TEXT" />
       <mapping ext="json" type="PLAIN_TEXT" />
       <mapping ext="crt" type="PLAIN_TEXT" />
+      <mapping ext="aab" type="PLAIN_TEXT" />
       <mapping ext="tar" type="PLAIN_TEXT" />
       <mapping ext="z" type="PLAIN_TEXT" />
       <mapping ext="pem" type="PLAIN_TEXT" />
