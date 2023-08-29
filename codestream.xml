@@ -1,6 +1,5 @@
 <application>
   <component name="CodeStream">
     <option name="serverUrl" value="https://codestream-eu1.service.eu.newrelic.com" />
-    <option name="teamId" value="63de1d5f290777e6875a8d3a" />
   </component>
 </application>
